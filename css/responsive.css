@@ -1,0 +1,39 @@
+@media (max-width: 1050px) {
+  .hig-class {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    transition: 0.3s ease-in;
+  }
+
+  .nav-bar {
+    height: 16rem;
+    transition: all 1s ease-out;
+    width: 100%;
+  }
+  .h-nav {
+    height: 3rem;
+  }
+  .v-class {
+    opacity: 0;
+  }
+  .close {
+    display: block;
+  }
+  .menu {
+    display: block;
+  }
+
+  nav ul .des-a {
+    border: none;
+  }
+
+  nav ul .des-a a {
+    color: #fff;
+  }
+  .about:hover,
+  nav ul .des-a:hover {
+    background-color: none;
+    transition: none;
+  }
+}

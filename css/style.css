@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-color: rgb(24, 22, 22);
+}
+section {
+  height: 100vh;
+}
+.blue {
+  border: 1px solid #2bb9f1;
+  /* margin-top: 0.3rem; */
+  opacity: 0.3;
+}
+.nav-bar {
+  background-color: rgb(24, 22, 22);
+  top: 0;
+  position: sticky;
+  /* background-color: black; */
+  /* background-size: cover; */
+}
+.background {
+  background: rgba(202, 68, 202, 0) url('../images/background.jpg');
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+}
+.close {
+  display: none;
+  font-size: 2rem;
+  color: #2bb9f1;
+  cursor: pointer;
+  position: absolute;
+  top: 0.4rem;
+  right: 2rem;
+}
+.line {
+  width: 2rem;
+  background-color: #2bb9f1;
+  height: 0.22rem;
+  margin: 0.25rem;
+}
+.hig-class {
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  margin: 0.5rem;
+  list-style: none;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+nav ul .des-a {
+  border-radius: 0.9rem;
+  border: 0.1rem solid #2bb9f1;
+  /* color: #2bb9f1; */
+}
+nav ul .des-a a {
+  color: #2bb9f1;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: auto 0; */
+}
+.detail {
+  align-items: center;
+
+  flex-direction: column;
+  display: flex;
+
+  color: #fff;
+  height: 100px;
+  /* position: absolute; */
+  /* top: 40%;
+  left: 5%;
+  right: 5%; */
+  /* text-align: center; */
+}
+h1 {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-weight: 1;
+  letter-spacing: 0.1rem;
+}
+.motion {
+  color: #2bb9f1;
+  display: inline;
+  /* position: relative; */
+  font-weight: bold;
+  font-size: 2rem;
+
+  /* background-color: #fff; */
+}
+.dis--hidden {
+  display: none;
+}
+
+/* this i has done for the animation */
+/* .motion::after {
+  content: ' ';
+  position: absolute;
+
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* font-weight: 2rem; */
+/* border-left: 1rem solid #fff;
+  animation: typing 7s steps(18) 0.5;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+} */
+
+.about {
+  margin-top: 3rem;
+  background: none;
+  color: #2bb9f1;
+  height: 2.9rem;
+  width: 8rem;
+  border-radius: 0.9rem;
+
+  border: 0.1rem #2bb9f1 solid;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.about:hover,
+nav ul .des-a:hover {
+  background-color: #554b4b59;
+  transition: 1s;
+}
+.social-handle {
+  position: fixed;
+  right: 3rem;
+  bottom: 2rem;
+  z-index: 10;
+}
+.social-handle ul {
+  display: flex;
+  flex-direction: row;
+}
+.social-handle ul::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 200rem;
+  background: #2bb9f1;
+  opacity: 0.3;
+  right: 14rem;
+  top: 50%;
+}
+
+.social-handle li {
+  list-style: none;
+}
+.social-handle a {
+  margin: 0.8rem;
+  font-size: 1rem;
+  display: inline-block;
+  color: #fff;
+  text-align: right;
+  text-decoration: none;
+}
+.social-handle .fab {
+  font-size: 2rem;
+}
+.social-handle .fab:hover {
+  color: #2bb9f1;
+  transition: 1s;
+}
+
+.about--me .abt--sec {
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  padding: 2rem;
+}
+/* .abt--sk {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin: 1rem;
+}
+.abt--sk h3 {
+  color: #2bb9f1;
+}
+.abt--sk .who--am,
+.abt--sk .ski {
+  width: 49%;
+  text-align: center;
+} */
+
+.abt--sk {
+  color: #fff;
+  margin: 0.7rem;
+  text-align: center;
+}
+.abt--sk h3 {
+  color: #2bb9f1;
+  margin: 0.6rem;
+}
+.abt--sk .wh--am .bld {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.abt--sk .wh--am,
+.abt--sk .ski {
+  margin: 0 1rem;
+}
+.wh--am {
+  padding: 0 7rem;
+}
