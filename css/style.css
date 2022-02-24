@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;1,700&family=Roboto+Serif:ital,wght@0,100;1,100;1,300;1,500&family=Roboto:wght@100;300;500;700&family=Source+Code+Pro&family=Ubuntu:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +38,7 @@ section {
 }
 .close {
   opacity: 0;
-  font-size: 2rem;
+  font-size: 2.2em;
   color: #2bb9f1;
   cursor: pointer;
   position: absolute;
@@ -45,9 +46,9 @@ section {
   right: 2rem;
 }
 .line {
-  width: 2rem;
+  width: 2.2rem;
   background-color: #2bb9f1;
-  height: 0.22rem;
+  height: 0.4rem;
   margin: 0.25rem;
 }
 .hig-class {
@@ -68,6 +69,7 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 1rem;
+  letter-spacing: 0.11rem;
   padding: 1rem 1rem;
 }
 nav ul .des-a {
@@ -77,6 +79,7 @@ nav ul .des-a {
 }
 nav ul .des-a a {
   color: #2bb9f1;
+  font-family: 'Ubuntu', sans-serif;
 }
 .intro {
   display: flex;
@@ -103,7 +106,7 @@ h1 {
   font-size: 1.3rem;
   line-height: 2.5rem;
   font-weight: 1;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.11rem;
 }
 .motion {
   color: #2bb9f1;
@@ -111,6 +114,7 @@ h1 {
   /* position: relative; */
   font-weight: bold;
   font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
 
   /* background-color: #fff; */
 }
@@ -151,6 +155,9 @@ h1 {
   border: 0.1rem #2bb9f1 solid;
   cursor: pointer;
   font-size: 1.2rem;
+}
+.about p {
+  font-family: 'Ubuntu', sans-serif;
 }
 .about:hover,
 nav ul .des-a:hover {
@@ -198,13 +205,16 @@ nav ul .des-a:hover {
   transition: 1s;
 }
 
-.about--me .abt--sec {
+.about--me {
   text-align: center;
-  color: #fff;
 }
 h2 {
-  padding: 2rem;
+  color: #2bb9f1;
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
 }
+
 /* .abt--sk {
   display: flex;
   justify-content: space-between;
@@ -220,23 +230,14 @@ h2 {
   text-align: center;
 } */
 
-.abt--sk {
-  color: #fff;
-  margin: 0.7rem;
-  text-align: center;
+p {
+  color: white;
 }
-.abt--sk h3 {
-  color: #2bb9f1;
-  margin: 0.6rem;
-}
-.abt--sk .wh--am .bld {
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-}
-.abt--sk .wh--am,
-.abt--sk .ski {
-  margin: 0 1rem;
-}
-.wh--am {
-  padding: 0 7rem;
+
+.bld {
+  margin: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.12rem;
+  font-size: 1rem;
+  padding: 0rem 11rem;
 }

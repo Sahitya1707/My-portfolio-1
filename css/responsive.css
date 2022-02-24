@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 80%;
     margin: auto;
-    transition: 0.3s ease-in;
+    /* transition: 0.3s ease-in; */
   }
 
   .nav-bar {
@@ -54,10 +54,14 @@
     width: 9rem;
   }
   .social-handle .fab {
-    font-size: 3rem;
+    font-size: 2rem;
+    color: #2bb9f1;
+    padding: 3px;
   }
   .social-handle ul::before {
-    display: none;
+    /* display: none; */
+    background: white;
+    right: 16rem;
   }
   nav ul li a {
     font-size: 2rem;
