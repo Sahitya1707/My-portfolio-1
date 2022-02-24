@@ -6,7 +6,7 @@ const ulBar = document.querySelector('.hig-class');
 const navBar = document.querySelector('.nav-bar');
 menu.addEventListener('click', function () {
   menu.classList.toggle('v-class');
-  closeMenu.classList.toggle('v-class');
+  closeMenu.classList.toggle('closeBtn');
   ulBar.classList.toggle('v-class');
   navBar.classList.toggle('h-nav');
 });

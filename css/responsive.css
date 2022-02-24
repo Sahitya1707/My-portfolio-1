@@ -7,7 +7,7 @@
   }
 
   .nav-bar {
-    height: 16rem;
+    height: 23rem;
     transition: all 1s ease-out;
     width: 100%;
   }
@@ -17,8 +17,9 @@
   .v-class {
     opacity: 0;
   }
-  .close {
-    display: block;
+  .closeBtn {
+    /* display: block; */
+    opacity: 100;
   }
   .menu {
     display: block;
@@ -35,5 +36,30 @@
   nav ul .des-a:hover {
     background-color: none;
     transition: none;
+  }
+  .detail {
+    height: 6rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    letter-spacing: 0.3rem;
+  }
+  .motion {
+    font-size: 2.5rem;
+  }
+  .about {
+    font-size: 1.7rem;
+    height: 4rem;
+    width: 9rem;
+  }
+  .social-handle .fab {
+    font-size: 3rem;
+  }
+  .social-handle ul::before {
+    display: none;
+  }
+  nav ul li a {
+    font-size: 2rem;
   }
 }
