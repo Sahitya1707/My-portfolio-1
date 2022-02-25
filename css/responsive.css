@@ -41,15 +41,16 @@
     height: 6rem;
   }
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     letter-spacing: 0.3rem;
   }
+
   .motion {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .about {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     height: 4rem;
     width: 9rem;
   }
@@ -65,5 +66,16 @@
   }
   nav ul li a {
     font-size: 2rem;
+  }
+  .bld {
+    padding: 0;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  .bld {
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 2rem;
   }
 }
