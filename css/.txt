@@ -34,3 +34,11 @@
   git status
   git commit -m
   git push -u origin master
+
+  I'm sahitya neupane, and i design websites. While i'm based in Nepal. I help build websites for people all over the world.
+
+  I define myself by the work I want to do.I am now pursuing my bachelor's degree in computer science and
+          information technology (CSIT). I prefer to keep learning, continue challenging myself. I realized learning web developement would be the perfect fit. I could use my creative side to design and my logical side to code.
+
+          I'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.I like to develop expertise in a number of areas over the course of my life and career. You can read more about myself in the pdf attached below:
+          

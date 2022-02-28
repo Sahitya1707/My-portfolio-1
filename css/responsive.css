@@ -1,8 +1,12 @@
-@media (max-width: 1050px) {
+@media (max-width: 980px) {
+  /* section {
+    height: 97vh;
+  } */
   .hig-class {
     flex-direction: column;
     width: 80%;
     margin: auto;
+    transition: none;
     /* transition: 0.3s ease-in; */
   }
 
@@ -22,6 +26,7 @@
     opacity: 100;
   }
   .menu {
+    /* transition: all 4s; */
     display: block;
   }
 
@@ -67,15 +72,25 @@
   nav ul li a {
     font-size: 2rem;
   }
-  .bld {
-    padding: 0;
-  }
+
   h2 {
     font-size: 2.3rem;
   }
   .bld {
-    font-weight: 300;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     line-height: 2rem;
+    padding: 0;
+  }
+  .nbld {
+    font-size: 1.3rem;
+    line-height: 2rem;
+
+    padding: 0;
+  }
+  .rig--bld {
+    padding: 0;
+  }
+  .res--bld {
+    font-size: 1.3rem;
   }
 }

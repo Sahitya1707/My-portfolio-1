@@ -48,7 +48,7 @@ section {
 .line {
   width: 2.2rem;
   background-color: #2bb9f1;
-  height: 0.4rem;
+  height: 0.3rem;
   margin: 0.25rem;
 }
 .hig-class {
@@ -57,6 +57,7 @@ section {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  transition: all 0.6s ease;
 }
 
 .nav-bar ul li {
@@ -71,10 +72,16 @@ nav ul li a {
   font-size: 1rem;
   letter-spacing: 0.11rem;
   padding: 1rem 1rem;
+  transition: all 0.6s ease;
+}
+nav ul li a:hover {
+  color: #2bb9f1;
+  transition: all 0.6s ease;
 }
 nav ul .des-a {
   border-radius: 0.9rem;
   border: 0.1rem solid #2bb9f1;
+  transition: all 0.3s ease;
   /* color: #2bb9f1; */
 }
 nav ul .des-a a {
@@ -155,6 +162,7 @@ h1 {
   border: 0.1rem #2bb9f1 solid;
   cursor: pointer;
   font-size: 1.2rem;
+  transition: all 0.3s ease;
 }
 .about p {
   font-family: 'Ubuntu', sans-serif;
@@ -214,6 +222,9 @@ h2 {
   font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
 }
+.about--me h2 {
+  margin-top: 10rem;
+}
 
 /* .abt--sk {
   display: flex;
@@ -229,15 +240,50 @@ h2 {
   width: 49%;
   text-align: center;
 } */
-
+/* .abt--sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 p {
   color: white;
 }
-
+.abt--sk {
+  margin-top: 4rem;
+}
 .bld {
+  text-align: left;
   margin: 1rem;
   line-height: 1.8rem;
   letter-spacing: 0.12rem;
   font-size: 1rem;
-  padding: 0rem 11rem;
+  padding: 0rem 7rem;
+  font-weight: 400;
+}
+.nbld {
+  text-align: left;
+
+  margin: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.12rem;
+  font-size: 1rem;
+  padding: 0rem 7rem;
+  font-weight: 300;
+}
+.res--bld {
+  text-decoration: none;
+  color: #2bb9f1;
+  font-size: 1rem;
+
+  letter-spacing: 0.12rem;
+  font-family: 'Ubuntu', sans-serif;
+  transition: 1s;
+  font-weight: bold;
+}
+
+.rig--bld {
+  text-align: left;
+  padding: 0rem 7rem;
+  margin: -0.5rem 1rem;
 }
