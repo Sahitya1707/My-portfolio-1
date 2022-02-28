@@ -280,8 +280,12 @@ p {
   font-family: 'Ubuntu', sans-serif;
   transition: 1s;
   font-weight: bold;
+  cursor: pointer;
 }
-
+/* .res--bld:hover {
+  font-style: italic;
+  transition: 9s ease-in;
+} */
 .rig--bld {
   text-align: left;
   padding: 0rem 7rem;
