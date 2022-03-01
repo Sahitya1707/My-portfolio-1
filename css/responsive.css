@@ -7,7 +7,7 @@
     width: 80%;
     margin: auto;
     transition: none;
-    /* transition: 0.3s ease-in; */
+    transition: 0.3s ease-in;
   }
 
   .nav-bar {
