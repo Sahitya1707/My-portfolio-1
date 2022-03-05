@@ -300,20 +300,26 @@ p {
   margin: 1rem;
 }
 .all--proj {
-  display: flex;
+  /* display: flex;
   margin: 1.5rem;
   flex-basis: 33%;
-  justify-content: center;
+  justify-content: center; */
   overflow-x: auto;
   /* flex-wrap: wrap; */
-  /* grid-template-rows: repeat(2, 19rem);
+  grid-template-rows: repeat(2, 19rem);
   display: grid;
-  grid-template-columns: repeat(4, 17rem);
+  grid-template-columns: repeat(5, 17rem);
   grid-template-rows: 19rem 19rem;
   margin: 0 auto;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
-  align-items: center; */
+  grid-row-gap: 25px;
+  grid-column-gap: 25px;
+  align-items: center;
+}
+.all--proj::-webkit-scrollbar {
+  width: 0;
+  /* color: red;
+  */
+  /* background-color: red; */
 }
 .webOne {
   height: 19rem;
