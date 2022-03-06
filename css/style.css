@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgb(24, 22, 22);
 }
@@ -395,6 +398,7 @@ p {
   border: 2px solid white;
   border-radius: 15px;
   transition: 0.11s;
+  cursor: pointer;
 }
 .form button:hover {
   background-color: #1993c4;
@@ -434,3 +438,10 @@ p {
     pointer-events: none;
   }
 } */
+.text-footer {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
