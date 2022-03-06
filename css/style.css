@@ -8,7 +8,7 @@
 body {
   background-color: rgb(24, 22, 22);
 }
-section {
+.intro {
   height: 100vh;
 }
 .blue {
@@ -250,7 +250,7 @@ p {
   color: white;
 }
 .abt--sk {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .bld {
   text-align: left;
@@ -291,7 +291,9 @@ p {
   padding: 0rem 7rem;
   margin: -0.5rem 1rem;
 }
-
+.projects {
+  margin-top: 3rem;
+}
 .proj--works {
   text-align: center;
 }
@@ -304,7 +306,7 @@ p {
   margin: 1.5rem;
   flex-basis: 33%;
   justify-content: center; */
-  overflow-x: auto;
+  overflow-x: scroll;
   /* flex-wrap: wrap; */
   grid-template-rows: repeat(2, 19rem);
   display: grid;
@@ -317,11 +319,14 @@ p {
 }
 .all--proj::-webkit-scrollbar {
   width: 0;
+  /* height: 0.2rem;
+  opacity: 24; */
+
   /* color: red;
   */
-  /* background-color: red; */
+  /* background-color: #2bb9f1; */
 }
-.webOne {
+*/ .webOne {
   height: 19rem;
   width: 17rem;
   border: 2px solid #2bb9f1;
@@ -344,6 +349,13 @@ p {
   margin: 0.2rem;
   /* margin-bottom: 0.5rem; */
 }
+.all--proj {
+  margin: 0 2rem;
+}
+.webOne {
+  border: 2px solid #2bb9f1;
+  border-radius: 15px;
+}
 .webOne hr {
   /* background-color: #2bb9f1; */
   opacity: 0.1;
@@ -353,3 +365,72 @@ p {
   font-size: 1.5rem;
   margin: 0.4rem 0;
 }
+.form {
+  text-align: center;
+  margin: 1rem auto;
+}
+.contact--me {
+  max-width: 35rem;
+  margin: auto;
+}
+.form-input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 0.1rem solid #2bb9f172;
+  border-radius: 0.4rem;
+  margin: 0.7rem auto;
+  font-size: 1rem;
+  /* background: rgb(175, 178, 181); */
+}
+.opc {
+  opacity: 0.5;
+}
+.form button {
+  background-color: #2bb9f1;
+  padding: 0.7rem 7rem;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  border: 2px solid white;
+  border-radius: 15px;
+  transition: 0.11s;
+}
+.form button:hover {
+  background-color: #1993c4;
+  transition: 1s;
+}
+/* #status {
+  color: white;
+  padding: 0.7rem 5rem;
+
+
+  max-width: 300px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+
+
+}
+.success {
+  background-color: rgb(152, 223, 45);
+  animation: status 4s ease forwards;
+}
+.error {
+  background-color: orangered;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+} */

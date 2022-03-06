@@ -18,8 +18,13 @@
   .h-nav {
     height: 3rem;
   }
-  .v-class {
+  .v-clas {
     opacity: 0;
+  }
+  .v-class {
+    /* opacity: 0;
+     */
+    display: none;
   }
   .closeBtn {
     /* display: block; */
