@@ -11,6 +11,17 @@ menu.addEventListener('click', function () {
   navBar.classList.toggle('h-nav');
 });
 
+// // for active
+// const ul = document.querySelector('.ul');
+// const li = document.querySelector('.li');
+
+// li.forEach(el => {
+//   el.addEventListener('click', function () {
+//     ul.querySelector('.active').classList('active');
+//     el.classList.add('active');
+//   });
+// });
+
 // this is for the form
 // var form = document.getElementById('my-form');
 

@@ -65,7 +65,7 @@
     width: 9rem;
   }
   .social-handle .fab {
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: #2bb9f1;
     padding: 3px;
   }
@@ -97,5 +97,29 @@
   }
   .res--bld {
     font-size: 1.3rem;
+  }
+  .contact--me {
+    max-width: 25rem;
+  }
+  .form button {
+    padding: 0.6rem 5rem;
+    font-size: 1rem;
+  }
+  .text-footer {
+    font-size: 0.6rem;
+  }
+  .webOne {
+    margin-top: 5rem;
+  }
+  .all--proj {
+    grid-row-gap: 28px;
+    grid-column-gap: 0px;
+  }
+  .form {
+    height: 35rem;
+  }
+  .form button:hover {
+    background-color: none !important;
+    transition: none;
   }
 }

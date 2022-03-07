@@ -218,6 +218,7 @@ nav ul .des-a:hover {
 
 .about--me {
   text-align: center;
+  height: 40rem;
 }
 h2 {
   color: #2bb9f1;
@@ -226,7 +227,7 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
 }
 .about--me h2 {
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
 }
 
 /* .abt--sk {
@@ -251,6 +252,9 @@ h2 {
 } */
 p {
   color: white;
+}
+.abt--sec a {
+  text-decoration: none;
 }
 .abt--sk {
   margin-top: 2rem;
@@ -296,6 +300,7 @@ p {
 }
 .projects {
   margin-top: 3rem;
+  height: 50rem;
 }
 .proj--works {
   text-align: center;
@@ -317,7 +322,7 @@ p {
   grid-template-rows: 19rem 19rem;
   margin: 0 auto;
   grid-row-gap: 25px;
-  grid-column-gap: 25px;
+  grid-column-gap: 0px;
   align-items: center;
 }
 .all--proj::-webkit-scrollbar {
@@ -347,8 +352,8 @@ p {
 }
 .boxInBox img {
   border-radius: 15px;
-  height: 12rem;
-  width: 16rem;
+  height: 11rem;
+  width: 12rem;
   margin: 0.2rem;
   /* margin-bottom: 0.5rem; */
 }
@@ -358,10 +363,11 @@ p {
 .webOne {
   border: 2px solid #2bb9f1;
   border-radius: 15px;
+  width: 13rem;
 }
 .webOne hr {
   /* background-color: #2bb9f1; */
-  opacity: 0.1;
+  opacity: 0.15;
 }
 .webOne i {
   color: #2bb9f1;
@@ -371,6 +377,7 @@ p {
 .form {
   text-align: center;
   margin: 1rem auto;
+  height: 33rem;
 }
 .contact--me {
   max-width: 35rem;
@@ -390,7 +397,7 @@ p {
 }
 .form button {
   background-color: #2bb9f1;
-  padding: 0.7rem 7rem;
+  padding: 0.6rem 6rem;
   color: white;
   font-size: 1.5rem;
   font-family: 'Ubuntu', sans-serif;
@@ -445,3 +452,9 @@ p {
   font-family: 'Ubuntu', sans-serif;
   color: white;
 }
+footer {
+  height: 3rem;
+}
+/* .active {
+  color: #2bb9f1;
+} */
