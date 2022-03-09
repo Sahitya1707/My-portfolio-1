@@ -49,18 +49,19 @@ body {
 }
 .close {
   opacity: 0;
-  font-size: 2.2em;
+  font-size: 2.5rem;
   color: var(--textColor);
   cursor: pointer;
   position: absolute;
-  top: 0.4rem;
+  top: 0.5rem;
   right: 2rem;
 }
 .line {
-  width: 2.2rem;
+  width: 2.5rem;
   background-color: var(--textColor);
-  height: 0.3rem;
-  margin: 0.25rem;
+  height: 0.4rem;
+  margin: 0.3rem;
+  border-radius: 5px;
 }
 .hig-class {
   margin-right: 2.5rem;
@@ -104,10 +105,10 @@ nav ul .des-a a {
 }
 ul .fa-moon-o {
   color: var(--textColor);
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 ul .fa-sun-o {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--textColor);
 }
 .intro {
@@ -220,7 +221,7 @@ nav ul .des-a:hover {
   height: 3px;
   width: 200rem;
   background: var(--maincolor);
-  opacity: 0.3;
+  opacity: 0.11;
   right: 14rem;
   top: 50%;
 }
@@ -394,9 +395,9 @@ p {
   border-radius: 15px;
   width: 13rem;
 }
-.webOne hr {
+.opaHr {
   /* background-color: var(--maincolor); */
-  opacity: 0.5;
+  opacity: 0.1;
 }
 .webOne i {
   color: var(--maincolor);
@@ -518,8 +519,8 @@ footer {
   --textColor: black;
   --bgcolor: white;
   --maincolor: #2bb9f1;
-  --hoverColor: rgb(120, 107, 107);
-  --hoverSumbit: #1993c4;
+  --hoverColor: rgb(221, 210, 210);
+  --hoverSumbit: #78b0c5;
 }
 /* .pvar(--textColor) {
   color: black;

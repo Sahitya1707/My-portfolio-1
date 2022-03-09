@@ -15,12 +15,14 @@ const body = document.querySelector('body');
 const sun = document.querySelector('.fa-sun-o');
 const moon = document.querySelector('.fa-moon-o');
 sun.addEventListener('click', function () {
+  body.style.transition = '1s';
   body.classList.add('darkMode');
   moon.classList.remove('dis--opaN');
   sun.classList.add('dis--opaN');
 });
 
 moon.addEventListener('click', function () {
+  body.style.transition = '1s';
   body.classList.remove('darkMode');
   moon.classList.add('dis--opaN');
   sun.classList.remove('dis--opaN');

@@ -11,12 +11,12 @@
   }
 
   .nav-bar {
-    height: 25rem;
+    height: 30rem;
     transition: all 1s ease-out;
     width: 100%;
   }
   .h-nav {
-    height: 3rem;
+    height: 4rem;
   }
   .v-clas {
     opacity: 0;
@@ -41,6 +41,7 @@
 
   nav ul .des-a a {
     color: var(--textColor);
+    font-size: 2.5rem;
   }
   .about:hover,
   nav ul .des-a:hover {
@@ -51,49 +52,60 @@
     height: 6rem;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     line-height: 3rem;
     letter-spacing: 0.3rem;
   }
 
   .motion {
-    font-size: 2.3rem;
+    font-size: 3.2rem;
   }
   .about {
-    font-size: 1.5rem;
-    height: 4rem;
-    width: 9rem;
+    font-size: 2.3rem;
+    height: 5rem;
+    width: 12rem;
   }
   .social-handle .fab {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     color: var(--maincolor);
     padding: 3px;
   }
   .social-handle ul::before {
     /* display: none; */
     background: var(--maincolor);
-    right: 16rem;
+    right: 18rem;
   }
   nav ul li a {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  ul .fa {
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 2.3rem;
+    font-size: 2.7rem;
   }
   .bld {
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.9rem;
+    line-height: 2.7rem;
     padding: 0;
   }
+  .abt--sk {
+    padding: 1.5rem;
+    margin-top: 0rem;
+  }
+  .about--me {
+    height: 74rem;
+  }
   .nbld {
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.7rem;
 
     padding: 0;
   }
   .rig--bld {
     padding: 0;
+    font-size: 2rem;
   }
   .res--bld {
     font-size: 1.3rem;
@@ -103,7 +115,7 @@
   }
   .form button {
     padding: 0.6rem 5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .text-footer {
     font-size: 0.6rem;
@@ -121,5 +133,8 @@
   .form button:hover {
     background-color: none !important;
     transition: none;
+  }
+  .boxInBox p {
+    font-size: 1.5rem;
   }
 }
