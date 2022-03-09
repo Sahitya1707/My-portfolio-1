@@ -11,6 +11,30 @@ menu.addEventListener('click', function () {
   navBar.classList.toggle('h-nav');
 });
 
+const body = document.querySelector('body');
+const sun = document.querySelector('.fa-sun-o');
+const moon = document.querySelector('.fa-moon-o');
+sun.addEventListener('click', function () {
+  body.classList.add('darkMode');
+  moon.classList.remove('dis--opaN');
+  sun.classList.add('dis--opaN');
+});
+
+moon.addEventListener('click', function () {
+  body.classList.remove('darkMode');
+  moon.classList.add('dis--opaN');
+  sun.classList.remove('dis--opaN');
+});
+// moon.addEventListener('click', function () {});
+
+// const darkBtn = document.querySelector('.darkBtn');
+// const linkWhite = document.querySelector('a');
+
+// darkBtn.addEventListener('click', function () {
+//   darkBtn.classList.toggle('active');
+
+//   body.classList.toggle('darkMode');
+// });
 // // for active
 // const ul = document.querySelector('.ul');
 // const li = document.querySelector('.li');

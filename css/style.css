@@ -5,32 +5,40 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+:root {
+  --navBg: black;
+  --textColor: rgb(201, 187, 187);
+  --bgcolor: rgb(24, 22, 22);
+  --maincolor: #2bb9f1;
+  --hoverColor: #554b4b59;
+  --hoverSumbit: #1993c4;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(24, 22, 22);
+  background-color: var(--bgcolor);
 }
 .intro {
   height: 100vh;
 }
 .blue {
-  border: 1px solid #2bb9f1;
+  border: 1px solid var(--maincolor);
   /* margin-top: 0.3rem; */
   opacity: 0.3;
 }
 .nav-bar {
-  background-color: rgb(24, 22, 22);
+  background-color: var(--navBg);
   top: 0;
   position: sticky;
   /* background-color: black; */
   /* background-size: cover; */
 }
-.background {
+/* .background {
   background: rgba(202, 68, 202, 0) url('../images/background.jpg');
   background-size: cover;
   background-blend-mode: lighten;
-}
+} */
 
 .menu {
   display: none;
@@ -42,7 +50,7 @@ body {
 .close {
   opacity: 0;
   font-size: 2.2em;
-  color: #2bb9f1;
+  color: var(--textColor);
   cursor: pointer;
   position: absolute;
   top: 0.4rem;
@@ -50,7 +58,7 @@ body {
 }
 .line {
   width: 2.2rem;
-  background-color: #2bb9f1;
+  background-color: var(--textColor);
   height: 0.3rem;
   margin: 0.25rem;
 }
@@ -71,25 +79,36 @@ body {
 }
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: var(--textColor);
   font-size: 1rem;
   letter-spacing: 0.11rem;
   padding: 1rem 1rem;
   /* transition: all 0.6s ease; */
 }
 nav ul li a:hover {
-  color: #2bb9f1;
+  color: var(--maincolor);
   transition: all 0.6s ease;
 }
 nav ul .des-a {
   border-radius: 0.9rem;
-  border: 0.1rem solid #2bb9f1;
+  border: 0.1rem solid var(--maincolor);
   transition: all 0.3s ease;
-  /* color: #2bb9f1; */
+  /* color: var(--maincolor); */
 }
 nav ul .des-a a {
-  color: #2bb9f1;
+  color: var(--maincolor);
   font-family: 'Ubuntu', sans-serif;
+}
+.dayNightCen {
+  margin-bottom: 1rem;
+}
+ul .fa-moon-o {
+  color: var(--textColor);
+  font-size: 1rem;
+}
+ul .fa-sun-o {
+  font-size: 1rem;
+  color: var(--textColor);
 }
 .intro {
   display: flex;
@@ -104,7 +123,7 @@ nav ul .des-a a {
   flex-direction: column;
   display: flex;
 
-  color: #fff;
+  color: var(--textColor);
   height: 100px;
   /* position: absolute; */
   /* top: 40%;
@@ -119,17 +138,26 @@ h1 {
   letter-spacing: 0.11rem;
 }
 .motion {
-  color: #2bb9f1;
+  color: var(--maincolor);
   display: inline;
   /* position: relative; */
   font-weight: bold;
   font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
 
-  /* background-color: #fff; */
+  /* background-color: var(--textColor); */
 }
 .dis--hidden {
   display: none;
+}
+/* .dis--show {
+  display: block;
+} */
+.dis--opaN {
+  opacity: 0;
+}
+.dis--opa {
+  opacity: 100;
 }
 
 /* this i has done for the animation */
@@ -141,7 +169,7 @@ h1 {
   height: 100%;
   width: 100%;
   /* font-weight: 2rem; */
-/* border-left: 1rem solid #fff;
+/* border-left: 1rem solid var(--textColor);
   animation: typing 7s steps(18) 0.5;
 }
 @keyframes typing {
@@ -157,12 +185,12 @@ h1 {
 .about {
   margin-top: 3rem;
   background: none;
-  color: #2bb9f1;
+  color: var(--maincolor);
   height: 2.9rem;
   width: 8rem;
   border-radius: 0.9rem;
 
-  border: 0.1rem #2bb9f1 solid;
+  border: 0.1rem var(--maincolor) solid;
   cursor: pointer;
   font-size: 1.2rem;
   transition: all 0.3s ease;
@@ -172,7 +200,7 @@ h1 {
 }
 .about:hover,
 nav ul .des-a:hover {
-  background-color: #554b4b59;
+  background-color: var(--hoverColor);
   transition: 1s;
 }
 .social-handle {
@@ -191,7 +219,7 @@ nav ul .des-a:hover {
   position: absolute;
   height: 3px;
   width: 200rem;
-  background: #2bb9f1;
+  background: var(--maincolor);
   opacity: 0.3;
   right: 14rem;
   top: 50%;
@@ -204,7 +232,7 @@ nav ul .des-a:hover {
   margin: 0.8rem;
   font-size: 1rem;
   display: inline-block;
-  color: #fff;
+  color: var(--textColor);
   text-align: right;
   text-decoration: none;
 }
@@ -212,7 +240,7 @@ nav ul .des-a:hover {
   font-size: 2rem;
 }
 .social-handle .fab:hover {
-  color: #2bb9f1;
+  color: var(--maincolor);
   transition: 1s;
 }
 
@@ -221,11 +249,12 @@ nav ul .des-a:hover {
   height: 40rem;
 }
 h2 {
-  color: #2bb9f1;
+  color: var(--maincolor);
   letter-spacing: 0.3rem;
   font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
 }
+
 .about--me h2 {
   /* margin-top: 10rem; */
 }
@@ -233,11 +262,11 @@ h2 {
 /* .abt--sk {
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: var(--textColor);
   margin: 1rem;
 }
 .abt--sk h3 {
-  color: #2bb9f1;
+  color: var(--maincolor);
 }
 .abt--sk .who--am,
 .abt--sk .ski {
@@ -251,7 +280,7 @@ h2 {
   align-items: center;
 } */
 p {
-  color: white;
+  color: var(--textColor);
 }
 .abt--sec a {
   text-decoration: none;
@@ -280,7 +309,7 @@ p {
 }
 .res--bld {
   text-decoration: none;
-  color: #2bb9f1;
+  color: var(--maincolor);
   font-size: 1rem;
 
   letter-spacing: 0.12rem;
@@ -332,12 +361,12 @@ p {
 
   /* color: red;
   */
-  /* background-color: #2bb9f1; */
+  /* background-color: var(--maincolor); */
 }
 */ .webOne {
   height: 19rem;
   width: 17rem;
-  border: 2px solid #2bb9f1;
+  border: 2px solid var(--maincolor);
   border-radius: 15px;
   margin: 1rem;
 }
@@ -361,16 +390,16 @@ p {
   margin: 0 2rem;
 }
 .webOne {
-  border: 2px solid #2bb9f1;
+  border: 2px solid var(--maincolor);
   border-radius: 15px;
   width: 13rem;
 }
 .webOne hr {
-  /* background-color: #2bb9f1; */
-  opacity: 0.15;
+  /* background-color: var(--maincolor); */
+  opacity: 0.5;
 }
 .webOne i {
-  color: #2bb9f1;
+  color: var(--maincolor);
   font-size: 1.5rem;
   margin: 0.4rem 0;
 }
@@ -386,33 +415,34 @@ p {
 .form-input {
   width: 100%;
   padding: 0.7rem;
-  border: 0.1rem solid #2bb9f172;
+  border: 0.1rem solid var(--maincolor) 72;
   border-radius: 0.4rem;
   margin: 0.7rem auto;
   font-size: 1rem;
+  border: 2px solid var(--textColor);
   /* background: rgb(175, 178, 181); */
 }
 .opc {
   opacity: 0.5;
 }
 .form button {
-  background-color: #2bb9f1;
+  background-color: var(--maincolor);
   padding: 0.6rem 6rem;
-  color: white;
+  color: var(--textColor);
   font-size: 1.5rem;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
-  border: 2px solid white;
+  border: 2px solid var(--textColor);
   border-radius: 15px;
   transition: 0.11s;
   cursor: pointer;
 }
 .form button:hover {
-  background-color: #1993c4;
+  background-color: var(--hoverSumbit);
   transition: 1s;
 }
 /* #status {
-  color: white;
+  color: var(--textColor);
   padding: 0.7rem 5rem;
 
 
@@ -450,11 +480,56 @@ p {
   text-align: center;
   padding: 1rem;
   font-family: 'Ubuntu', sans-serif;
-  color: white;
+  color: var(--textColor);
 }
 footer {
   height: 3rem;
+  background-color: var(--navBg);
 }
 /* .active {
-  color: #2bb9f1;
+  color: var(--maincolor);
+} */
+/* .darkBtn {
+  width: 3rem;
+  height: 1.5rem;
+  border: 2px solid var(--textColor);
+  background-color: rgb(117, 169, 247);
+  position: fixed;
+  right: 1.5rem;
+  top: 4rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.darkBtn::before {
+  position: absolute;
+  content: '';
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  background-color: #181616;
+  left: 1px;
+}
+.darkBtn.active::before {
+  left: 27px;
+  background: var(--textColor);
+} */
+.darkMode {
+  --navBg: rgb(192, 226, 240);
+  --textColor: black;
+  --bgcolor: white;
+  --maincolor: #2bb9f1;
+  --hoverColor: rgb(120, 107, 107);
+  --hoverSumbit: #1993c4;
+}
+/* .pvar(--textColor) {
+  color: black;
+} */
+
+/* .darkBtn::after {
+  position: absolute;
+  content: '';
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  background-color: #f0e8e8;
 } */

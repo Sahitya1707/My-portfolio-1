@@ -40,7 +40,7 @@
   }
 
   nav ul .des-a a {
-    color: #fff;
+    color: var(--textColor);
   }
   .about:hover,
   nav ul .des-a:hover {
@@ -66,12 +66,12 @@
   }
   .social-handle .fab {
     font-size: 2.4rem;
-    color: #2bb9f1;
+    color: var(--maincolor);
     padding: 3px;
   }
   .social-handle ul::before {
     /* display: none; */
-    background: white;
+    background: var(--maincolor);
     right: 16rem;
   }
   nav ul li a {
