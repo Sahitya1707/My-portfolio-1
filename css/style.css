@@ -100,15 +100,26 @@ nav ul .des-a a {
   color: var(--maincolor);
   font-family: 'Ubuntu', sans-serif;
 }
-.dayNightCen {
+/* .dayNightCen {
   margin-bottom: 1rem;
+} */
+ul .fa {
+  position: absolute;
+  bottom: 1rem;
+  /* margin: auto; */
 }
-ul .fa-moon-o {
+.dayNightCen .fa {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  /* right: 1rem; */
+}
+.fa-moon-o {
   color: var(--textColor);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
-ul .fa-sun-o {
-  font-size: 1.5rem;
+.fa-sun-o {
+  font-size: 2rem;
   color: var(--textColor);
 }
 .intro {
@@ -514,7 +525,7 @@ footer {
   left: 27px;
   background: var(--textColor);
 } */
-.darkMode {
+.whiteMode {
   --navBg: rgb(192, 226, 240);
   --textColor: black;
   --bgcolor: white;

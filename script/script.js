@@ -16,17 +16,18 @@ const sun = document.querySelector('.fa-sun-o');
 const moon = document.querySelector('.fa-moon-o');
 sun.addEventListener('click', function () {
   body.style.transition = '1s';
-  body.classList.add('darkMode');
-  moon.classList.remove('dis--opaN');
-  sun.classList.add('dis--opaN');
+  body.classList.toggle('whiteMode');
+  moon.classList.toggle('dis--opaN');
+  // moon.classList.add('dis--opa');
+  sun.classList.toggle('dis--opaN');
 });
 
-moon.addEventListener('click', function () {
-  body.style.transition = '1s';
-  body.classList.remove('darkMode');
-  moon.classList.add('dis--opaN');
-  sun.classList.remove('dis--opaN');
-});
+// moon.addEventListener('click', function () {
+//   body.style.transition = '1s';
+//   body.classList.remove('whiteMode');
+//   moon.classList.add('dis--opaN');
+//   sun.classList.remove('dis--opaN');
+// });
 // moon.addEventListener('click', function () {});
 
 // const darkBtn = document.querySelector('.darkBtn');

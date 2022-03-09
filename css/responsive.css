@@ -11,7 +11,7 @@
   }
 
   .nav-bar {
-    height: 30rem;
+    height: 26rem;
     transition: all 1s ease-out;
     width: 100%;
   }
@@ -111,7 +111,7 @@
     font-size: 1.3rem;
   }
   .contact--me {
-    max-width: 25rem;
+    max-width: 30rem;
   }
   .form button {
     padding: 0.6rem 5rem;
@@ -128,7 +128,7 @@
     grid-column-gap: 0px;
   }
   .form {
-    height: 35rem;
+    height: 50rem;
   }
   .form button:hover {
     background-color: none !important;
@@ -136,5 +136,8 @@
   }
   .boxInBox p {
     font-size: 1.5rem;
+  }
+  .form-input {
+    font-size: 1.9rem;
   }
 }
