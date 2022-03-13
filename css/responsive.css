@@ -118,7 +118,7 @@
     font-size: 1.5rem;
   }
   .text-footer {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   .webOne {
     margin-top: 5rem;
@@ -139,5 +139,11 @@
   }
   .form-input {
     font-size: 1.9rem;
+  }
+  footer {
+    height: 4rem;
+  }
+  footer .p {
+    font-size: 1.5rem;
   }
 }

@@ -110,18 +110,22 @@ ul .fa {
 }
 .dayNightCen .fa {
   position: absolute;
-  top: 1rem;
+  top: 0.6rem;
   left: 1rem;
+  cursor: pointer;
   /* right: 1rem; */
 }
-.fa-moon-o {
-  color: var(--textColor);
-  font-size: 2rem;
-}
+.fa-moon-o,
 .fa-sun-o {
+  color: var(--textColor);
+  font-size: 2rem;
+  transition: 0.5s ease;
+}
+/* .fa-sun-o {
+  transition: 0.5s ease;
   font-size: 2rem;
   color: var(--textColor);
-}
+} */
 .intro {
   display: flex;
   align-items: center;
@@ -166,6 +170,7 @@ h1 {
   display: block;
 } */
 .dis--opaN {
+  /* transition: 1s; */
   opacity: 0;
 }
 .dis--opa {
@@ -438,7 +443,7 @@ p {
   opacity: 0.5;
 }
 .form button {
-  background-color: var(--maincolor);
+  background-color: var(--bgcolor);
   padding: 0.6rem 6rem;
   color: var(--textColor);
   font-size: 1.5rem;
@@ -450,7 +455,7 @@ p {
   cursor: pointer;
 }
 .form button:hover {
-  background-color: var(--hoverSumbit);
+  background-color: var(--hoverColor);
   transition: 1s;
 }
 /* #status {
@@ -526,13 +531,14 @@ footer {
   background: var(--textColor);
 } */
 .whiteMode {
-  --navBg: rgb(192, 226, 240);
+  --navBg: rgb(209, 229, 238);
   --textColor: black;
   --bgcolor: white;
   --maincolor: #2bb9f1;
-  --hoverColor: rgb(221, 210, 210);
-  --hoverSumbit: #78b0c5;
+  --hoverColor: rgba(228, 206, 206, 0.605);
+  --hoverSumbit: #b8d5df;
 }
+
 /* .pvar(--textColor) {
   color: black;
 } */
